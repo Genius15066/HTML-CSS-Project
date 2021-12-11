@@ -1,0 +1,148 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:url("Images/top-banner.png");
+    background-repeat: no-repeat;
+    width:100%;
+   
+}
+section{
+    height:500px;
+    margin-top:60px;
+}
+
+/*Intro section start--*/
+.intro
+{
+    width:50%;
+    float: left;
+    line-height: 2;
+    padding: 30px 0px 0px 40px;
+    margin-left: 40px;
+    justify-content: center;
+}
+.intro h1{
+    font-size: 50px;
+
+}
+.intro h3{
+  font-size: 20px;
+  color:rgb(89, 0, 255);
+  font-weight: bold;
+  margin-bottom:15px;
+}
+.intro p{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.name-highlight
+{
+  color:orange;
+}
+.intro-image img
+{
+  height:350px;
+  width:350px;
+  margin:60px 0px 0px 90px;
+  
+}
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(114, 81, 231),rgb(206, 31, 89));
+    padding:10px 20px;
+    border-radius: 10px;
+    font-weight:500;
+    color:white;
+}
+.btn:hover{
+    background-image: linear-gradient(180deg,rgb(114, 81, 231),rgb(31, 206, 139));
+}
+
+/*skill section start*/
+.sec2
+{
+ background:url("Images/dream-bg.png");
+ background-repeat: no-repeat;
+ background-position: right center;
+}
+
+.skill-image{
+    width:40%;
+    float: left;
+}
+.skill-image img{
+    height:350px;
+    width:350px;
+    margin:80px 0px 0px 70px;
+}
+.skill-info{
+   margin-top:80px;
+   line-height: 2;
+}
+.skill-info p{
+    text-align: justify;
+    margin-bottom:20px;
+}
+
+/*Experience section start*/
+.sec3{
+    background:url("Images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+#exp-head{
+    margin-left:70px;
+    font-size: 40px;
+    color:rgb(101, 7, 104);
+}
+.exp-area
+{
+    display: flex;
+}
+.full-stack-area{
+    width:40%;
+    margin:70px 0px 0px 160px;
+}
+.junior-area{
+    margin:70px 0px 0px 0px;
+}
+.full-stack{
+    height:300px;
+    width: 400px;
+    box-shadow: 10px 10px 50px gray;
+    padding:10px 0px 0px 20px;
+    border-radius:10px;
+    border-left:7px solid;
+    border-image: linear-gradient(lightSalmon,tomato);
+    border-image-slice: 1;
+    
+}
+.junior{
+    height:300px;
+    width: 400px;
+    box-shadow: 10px 10px 50px gray;
+    padding:10px 0px 0px 20px;
+    border-radius:10px;
+    border-left:7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+.head2{
+  color:rgba(255, 0, 128, 0.959);
+}
+.head3{
+color:rgba(9, 128, 68, 0.774);
+font-size:16px ;
+margin-top: 5px;
+}
+footer{
+    text-align:center;
+    color:gray;
+    font-size: 18px;
+    padding-bottom:10px;
+}
+
